@@ -10,8 +10,13 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
-        List(contacts) { contact in
-            ContactRow(contact: contact)
+        NavigationView {
+            List(contacts) { contact in
+                NavigationLink(destination: DetailView(contact: contact)) {
+                    ContactRow(contact: contact)
+                }
+            }
+            .navigationTitle("Contacts")
         }
     }
 }
