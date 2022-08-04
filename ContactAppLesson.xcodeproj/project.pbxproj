@@ -11,6 +11,7 @@
 		AD132332289BCD6E00600243 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD132331289BCD6E00600243 /* ContentView.swift */; };
 		AD132334289BCD6F00600243 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD132333289BCD6F00600243 /* Assets.xcassets */; };
 		AD132337289BCD6F00600243 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD132336289BCD6F00600243 /* Preview Assets.xcassets */; };
+		AD13233E289BD04300600243 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD13233D289BD04300600243 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AD132331289BCD6E00600243 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD132333289BCD6F00600243 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD132336289BCD6F00600243 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD13233D289BD04300600243 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				AD13232F289BCD6E00600243 /* ContactAppLessonApp.swift */,
 				AD132331289BCD6E00600243 /* ContentView.swift */,
+				AD13233D289BD04300600243 /* Contact.swift */,
 				AD132333289BCD6F00600243 /* Assets.xcassets */,
 				AD132335289BCD6F00600243 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD13233E289BD04300600243 /* Contact.swift in Sources */,
 				AD132332289BCD6E00600243 /* ContentView.swift in Sources */,
 				AD132330289BCD6E00600243 /* ContactAppLessonApp.swift in Sources */,
 			);
