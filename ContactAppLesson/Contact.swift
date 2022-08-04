@@ -18,8 +18,8 @@ struct Contact: Identifiable {
 }
 
 let contacts = [
-Contact(imageName: "bena", name: "Benazir", phone: "0542 614 56 74", email: "bena@gmail.com", address: "Arnavutkoy")
-Contact(imageName: "aren", name: "Aren", phone: "0532 111 22 33", email: "aren@gmail.com", address: "Basaksehir")
-Contact(imageName: "oncu", name: "Oncu", phone: "0554 992 49 72", email: "oncu@gmail.com", address: "Bolluca")
+Contact(imageName: "bena", name: "Benazir", phone: "0542 614 56 74", email: "bena@gmail.com", address: "Arnavutkoy"),
+Contact(imageName: "aren", name: "Aren", phone: "0532 111 22 33", email: "aren@gmail.com", address: "Basaksehir"),
+Contact(imageName: "oncu", name: "Oncu", phone: "0554 992 49 72", email: "oncu@gmail.com", address: "Bolluca"),
 Contact(imageName: "ceylan", name: "Ceylan", phone: "0532 222 33 44", email: "ceylan@gmail.com", address: "Mardin")
 ]
